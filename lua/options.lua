@@ -63,3 +63,6 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Enable cursor wrapping across lines for h, l, <, >, [, and ]
+vim.opt.whichwrap:append '<>[]hl'
