@@ -64,6 +64,11 @@ return {
         --   },
         -- },
         -- pickers = {}
+        defaults = {
+          cache_picker = {
+            num_pickers = 15,
+          },
+        },
         extensions = {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
