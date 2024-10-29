@@ -68,6 +68,7 @@ return {
           cache_picker = {
             num_pickers = 15,
           },
+          dynamic_preview_title = true,
         },
         extensions = {
           ['ui-select'] = {
