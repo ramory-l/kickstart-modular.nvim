@@ -77,6 +77,9 @@ return {
           --  To jump back, press <C-t>.
           map('gd', require('telescope.builtin').lsp_definitions, '[G]oto [D]efinition')
 
+          -- Jump to the definition of the word under your cursor in vertical split.
+          map('gdv', '<cmd>lua require"telescope.builtin".lsp_definitions({jump_type="vsplit"})<CR>', '[G]oto [D]efinition in [V]ertical split')
+
           -- Find references for the word under your cursor.
           map('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
 
