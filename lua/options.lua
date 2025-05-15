@@ -70,3 +70,7 @@ vim.opt.confirm = true
 
 -- Enable cursor wrapping across lines for h, l, <, >, [, and ]
 vim.opt.whichwrap:append '<>[]hl'
+
+vim.opt.tabstop = 4
+
+vim.opt.fixendofline = false
